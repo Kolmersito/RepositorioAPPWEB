@@ -1,42 +1,123 @@
-<!DOCTYPE html> <!--Esto significa que es la version 5 para la interpretacion del navegador-->
+<!DOCTYPE html><!-- ESTE ES UN COMENTARIO -->
 <html lang="es">
-<!--html es la etiqueta (Solo hay uno en todo el dcumento), lang (lenguaje) el atributo y en es el valor-->
 
-<head> <!--Encabezado del archivo (No se visualiza)-->
-    <title>Portafolio Profesional - Jade Alejandro Morales Millan</title>
+<head>
+    <title>Portafolio Profesional - Jade Alejandro Morales</title>
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-    <!--Todo lo que vaya aqui, es lo que vera el usuario-->
-    </header>
-    <h1>PORTAFOLIO Profesional</h1> <!--Tamano de fuente-->
-    <h4>PORTAFOLIO Profesional</h4>
-    </header>
-    <!--Menu de navegacion-->
-    <nav>
-        <a href="#"> Inicio </a>
-        <a href="#"> Sobre mi </a>
-        <a href="#"> Contactos </a>
-        <nav>
+    <style>
 
-            <main>
-                <section>
-                    <h2>Bienvenidos a mi portafolio profesional</h2>
-                    <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.</p>
+    </style>
+    <!--TODO LO QUE COLOQUEN AQUI LO VERA EL USUARIO-->
+    <header>
+        <h1> Portafolio Profesional</h1>
+        <h4>Jade Alejandro Morales Millan</h4>
 
-                    <img src="https://images.pexels.com/photos/736530/pexels-photo-736530.jpeg" width="200"
-                        alt="Foto de perfil">
-                </section>
-            </main>
-            <footer>
-                <p>&copy;2025 Todos los derechos reservados</p>
-            </footer>
+    </header>
+    <!-- MENU DE NAVEGACION -->
+    <Nav>
+        <a href="#">Inicio</a>
+        <a href="#">Sobre mi</a>
+        <a href="#">Mi Experiencia</a>
+        <a href="#">Contactame</a>
+    </Nav>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <section>
+            <h2>Bienvenidos a mi portafolio profesional</h2>
+            <p Soy <mark>Jade Alejandro</mark> soy estudiante en <strong> Tecnologias de la informacion </strong>Lorem
+                Ipsum es simplemente texto ficticio de la industria de la impresión y la composición tipográfica.
+                Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el siglo XVI, cuando un impresor
+                desconocido tomó una galera de tipos y la codificó para hacer un libro de muestras tipográficas. Ha
+                sobrevivido no sólo cinco siglos, sino también el salto a la composición tipográfica electrónica,
+                permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de hojas
+                Letraset que contenían pasajes de Lorem Ipsum y, más recientemente, con software de autoedición como
+                Aldus PageMaker que incluía versiones de Lorem Ipsum.</p>
+
+            <p>Mi <small>frase favorita es: </small><i>Primero resuelvo problemas</i></p>
+
+            <img alt="foto de perfil" SRC="https://images.pexels.com/photos/27681652/pexels-photo-27681652.jpeg"
+                width="400" />
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos Tecnológicos</h2>
+            <div class="Lista-proyectos">
+                <article class=proyecto>
+                    <h3>Sistema de Estadías</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur,</p>
+                </article>
+                <article class=proyecto>
+                    <h3>Sistema de Estadías</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur,</p>
+                </article>
+                <article class=proyecto>
+                    <h3>Sistema de Estadías</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur,</p>
+                </article>
+
+            </div>
+        </section>
+        <section id="competencias">
+            <h2>Competencias profesionales</h2>
+            <h3> - - - - - - - - - - Tecnologías y Lenguajes - - - - - - - - - - - </h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+            </ul>
+        </section>
+
+
+
+        <section>
+            <section id="habilidades">
+                <h3>Dominio de Habilidades</h3>
+                <div class="habilidad-lista">
+                    <div>
+                        <progress min="0" max="100" value="50">50%</progress>
+                        <label>HTML</label>
+                    </div>
+                    <div>
+                        <progress min="0" max="100" value="40">40%</progress>
+                        <label>CSS</label>
+                    </div>
+                    <div>
+                        <progress min="0" max="100" value="30">30%</progress>
+                        <label>JavaScript</label>
+                    </div>
+                </div>
+                <nav>
+                    <a href="#bienvenida">Sobre Mí</a>
+                    <a href="#proyectos">Proyectos Tecnológicos</a>
+                    <a href="#competencias">Competencias Profesionales</a>
+                    <a href="#contactame">Contáctame</a>
+                </nav>
+            </section>
+        </section>
+        <section id="contacto">
+            <h2>Contactame</h2>
+            <p>lorem ipsum</p>
+            <div class="campos">
+                <label>Nombre completo:</label>
+                <input type="text" value="" placeholder="Ingresa Nombre">
+            </div>
+            <div class="campos">
+                <label>Correo electronico:</label>
+                <input type="text" value="" placeholder="Ingresa Nombre">
+            </div>
+            <div class="campos">
+                <button>Enviar</button>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Todos los derechos reservados</p>
+    </footer>
 </body>
 
 </html>
