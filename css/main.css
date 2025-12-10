@@ -152,6 +152,14 @@ footer {
     gap: 15px;
     padding: 0;
 }
+.foto-perfil {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+}
+
 
 #competencias ul li {
     background-color: #01eab7;

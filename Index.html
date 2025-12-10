@@ -1,4 +1,4 @@
-<!DOCTYPE html><!-- ESTE ES UN COMENTARIO -->
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -7,62 +7,70 @@
 </head>
 
 <body>
-    <style>
 
-    </style>
-    <!--TODO LO QUE COLOQUEN AQUI LO VERA EL USUARIO-->
     <header>
-        <h1> Portafolio Profesional</h1>
+        <h1>Portafolio Profesional</h1>
         <h4>Jade Alejandro Morales Millan</h4>
-
     </header>
+
     <!-- MENU DE NAVEGACION -->
-    <Nav>
+    <nav>
         <a href="#">Inicio</a>
         <a href="#">Sobre mi</a>
         <a href="#">Mi Experiencia</a>
         <a href="#">Contactame</a>
-    </Nav>
+    </nav>
+
     <!-- CONTENIDO PRINCIPAL -->
     <main>
-        <section>
+        <section id="bienvenida">
             <h2>Bienvenidos a mi portafolio profesional</h2>
-            <p Soy <mark>Jade Alejandro</mark> soy estudiante en <strong> Tecnologias de la informacion </strong>Lorem
-                Ipsum es simplemente texto ficticio de la industria de la impresión y la composición tipográfica.
-                Lorem Ipsum ha sido el texto ficticio estándar de la industria desde el siglo XVI, cuando un impresor
-                desconocido tomó una galera de tipos y la codificó para hacer un libro de muestras tipográficas. Ha
-                sobrevivido no sólo cinco siglos, sino también el salto a la composición tipográfica electrónica,
-                permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de hojas
-                Letraset que contenían pasajes de Lorem Ipsum y, más recientemente, con software de autoedición como
-                Aldus PageMaker que incluía versiones de Lorem Ipsum.</p>
 
-            <p>Mi <small>frase favorita es: </small><i>Primero resuelvo problemas</i></p>
+            <p>
+                Soy <mark>Jade Alejandro</mark>, soy estudiante en
+                <strong>Tecnologías de la Información</strong>. Lorem Ipsum es simplemente texto ficticio de la
+                industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto ficticio estándar
+                de la industria desde el siglo XVI, cuando un impresor desconocido tomó una galera de tipos y la
+                codificó para hacer un libro de muestras tipográficas...
+            </p>
 
-            <img alt="foto de perfil" SRC="https://images.pexels.com/photos/27681652/pexels-photo-27681652.jpeg"
-                width="400" />
+            <p>
+                Mi <small>frase favorita es: </small>
+                <i>Primero resuelvo problemas</i>
+            </p>
+
+            <!-- FOTO CORRECTAMENTE AGREGADA -->
+            <img src="image/FotoProfesional.jpeg" alt="foto de perfil">
+
         </section>
 
+        <!-- PROYECTOS -->
         <section id="proyectos">
             <h2>Proyectos Tecnológicos</h2>
+
             <div class="Lista-proyectos">
-                <article class=proyecto>
+                <article class="proyecto">
                     <h3>Sistema de Estadías</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur,</p>
-                </article>
-                <article class=proyecto>
-                    <h3>Sistema de Estadías</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur,</p>
-                </article>
-                <article class=proyecto>
-                    <h3>Sistema de Estadías</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur,</p>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
                 </article>
 
+                <article class="proyecto">
+                    <h3>Sistema de Estadías</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </article>
+
+                <article class="proyecto">
+                    <h3>Sistema de Estadías</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </article>
             </div>
         </section>
+
+        <!-- COMPETENCIAS -->
         <section id="competencias">
             <h2>Competencias profesionales</h2>
             <h3> - - - - - - - - - - Tecnologías y Lenguajes - - - - - - - - - - - </h3>
+
             <ul>
                 <li>HTML5</li>
                 <li>CSS</li>
@@ -71,53 +79,61 @@
             </ul>
         </section>
 
+        <!-- HABILIDADES -->
+        <section id="habilidades">
+            <h3>Dominio de Habilidades</h3>
 
-
-        <section>
-            <section id="habilidades">
-                <h3>Dominio de Habilidades</h3>
-                <div class="habilidad-lista">
-                    <div>
-                        <progress min="0" max="100" value="50">50%</progress>
-                        <label>HTML</label>
-                    </div>
-                    <div>
-                        <progress min="0" max="100" value="40">40%</progress>
-                        <label>CSS</label>
-                    </div>
-                    <div>
-                        <progress min="0" max="100" value="30">30%</progress>
-                        <label>JavaScript</label>
-                    </div>
+            <div class="habilidad-lista">
+                <div>
+                    <progress min="0" max="100" value="50">50%</progress>
+                    <label>HTML</label>
                 </div>
-                <nav>
-                    <a href="#bienvenida">Sobre Mí</a>
-                    <a href="#proyectos">Proyectos Tecnológicos</a>
-                    <a href="#competencias">Competencias Profesionales</a>
-                    <a href="#contactame">Contáctame</a>
-                </nav>
-            </section>
+
+                <div>
+                    <progress min="0" max="100" value="40">40%</progress>
+                    <label>CSS</label>
+                </div>
+
+                <div>
+                    <progress min="0" max="100" value="30">30%</progress>
+                    <label>JavaScript</label>
+                </div>
+            </div>
+
+            <nav>
+                <a href="#bienvenida">Sobre Mí</a>
+                <a href="#proyectos">Proyectos Tecnológicos</a>
+                <a href="#competencias">Competencias Profesionales</a>
+                <a href="#contacto">Contáctame</a>
+            </nav>
         </section>
+
+        <!-- CONTACTO -->
         <section id="contacto">
-            <h2>Contactame</h2>
-            <p>lorem ipsum</p>
+            <h2>Contáctame</h2>
+            <p>Lorem ipsum</p>
+
             <div class="campos">
                 <label>Nombre completo:</label>
-                <input type="text" value="" placeholder="Ingresa Nombre">
+                <input type="text" placeholder="Ingresa Nombre">
             </div>
+
             <div class="campos">
-                <label>Correo electronico:</label>
-                <input type="text" value="" placeholder="Ingresa Nombre">
+                <label>Correo electrónico:</label>
+                <input type="text" placeholder="Ingresa Correo">
             </div>
+
             <div class="campos">
                 <button>Enviar</button>
             </div>
         </section>
 
     </main>
+
     <footer>
         <p>&copy; 2025 Todos los derechos reservados</p>
     </footer>
+
 </body>
 
 </html>
